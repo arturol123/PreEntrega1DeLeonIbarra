@@ -9,9 +9,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
+
+
 
 .App-header {
   background-color: #282c34;
@@ -27,6 +29,38 @@
 .App-link {
   color: #61dafb;
 }
+
+.Btn-Primary{
+  padding: 10px;
+  background-color:cornflowerblue;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.ListaProd{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Img-gral{
+  border-radius: 5px;
+  height: 300px;
+  width: 200px;
+
+}
+
+footer{
+  background-color: black;
+  height: 50px;
+  margin-top: 20px;
+  color: white;
+}
+
 
 @keyframes App-logo-spin {
   from {
